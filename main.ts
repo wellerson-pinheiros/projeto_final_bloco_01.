@@ -1,3 +1,4 @@
+import { Comidas } from "./src/model/Comidas"
 
 const readlinesync = require('readline-sync')
 
@@ -5,8 +6,8 @@ const readlinesync = require('readline-sync')
 
 export function main (){
  
-    let opcao,id : number
-
+    let opcao,id,tipo,preco,peso : number
+    let nome,validade,fragancia : string
     while (true){
 
        
@@ -73,4 +74,8 @@ function sobre (){
 console.log('Programa Mercado criado 18/12/2024')
 console.log('Criado por Wellerson pinheiros dos santos')
 console.log('Obrigado!')
+}
+
+function visualizar() {
+    throw new Error("Function not implemented.")
 }
