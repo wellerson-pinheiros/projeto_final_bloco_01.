@@ -55,6 +55,20 @@ export class Produto {
 	}
 
 	public visualizar(){
+		let tipo: string = "";
+		switch(this._tipo){
+			case 1 :
+				tipo = "Comida"
+				break;
+			case 2 : 
+				tipo = "Cosmeticos"	
+				break;
+			case 3 :
+				tipo = "Bebida"
+				break;	
+		
+			}   
+
 
 		console.log('Nome do produto ' + this._nome);
 		console.log('O id do produto : ' + this.id);

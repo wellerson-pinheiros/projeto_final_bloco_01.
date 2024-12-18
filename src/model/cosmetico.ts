@@ -22,8 +22,7 @@ export class Cosmetico extends Produto{
 	public set fragancia(value: string) {
 		this._fragancia = value;
 	}
-
-
+	
 	public visualizar(): void {
 		super.visualizar()
 		console.log('A fragancia do produto e ' + this._fragancia )
