@@ -15,6 +15,7 @@ export function main (){
     let tipos =  [ 'Comida', 'Cosmetico', 'Bebidas' ]
 
     // instanciar objetos da minha classe controle
+    
     const produtosInstanciados = new ControllerMercado
 
     while (true){
@@ -49,7 +50,7 @@ export function main (){
        
         switch(opcao) {
             case 1:
-                if (opcao === 1){
+                
 
                     nome = readlinesync.question('Qual o nome do produto?')
                     
@@ -75,7 +76,7 @@ export function main (){
                               */  
                             }
                 
-                }
+                
                 break;
             case 2:
                 
